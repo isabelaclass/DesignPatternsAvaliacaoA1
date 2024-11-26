@@ -1,4 +1,9 @@
 package org.example;
 
-public class LandTransport {
+public class LandTransport implements Transport {
+
+    @Override
+    public void deliver() {
+        System.out.println("LandTransport");
+    }
 }

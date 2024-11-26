@@ -1,4 +1,5 @@
 package org.example;
 
-public class TransportFactory {
+public abstract class TransportFactory {
+    public abstract Transport createTransport(Package pkg);
 }
